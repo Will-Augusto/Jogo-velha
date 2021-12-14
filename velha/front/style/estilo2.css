@@ -1,0 +1,130 @@
+body {
+    background: rgb(46, 93, 248);
+    font: normal 12pt arial;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+
+header { 
+    color: white;
+    text-align: center ;
+    font: normal 30pt arial;
+    margin: auto;
+}
+div {
+    text-align: center;
+    padding: 8px;
+} 
+
+table{
+    background: rgb(42, 216, 48);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+    border-spacing: 0;
+    border-radius: 20px;
+    box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.363);
+
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    top: 50px;
+    text-align: center;
+    font-size: 38pt;
+}
+
+td:nth-child(1), td:nth-child(2){
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+}
+
+td:nth-child(3){
+    border-bottom: 7px solid white;
+    
+}
+
+tr:last-child td{
+    border-bottom: none;
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+#botoes{
+    display: block;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    top: 400px;
+}
+
+#BtnIniciar{
+    display: block;
+    position: absolute;
+    width: 125px;
+    height: 75px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.363);
+    font: normal 14pt arial;
+    margin: 8px;
+}
+
+#BtnRecomeçar{
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 32px;
+    width: 125px;
+    height: 75px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.363);
+    font: normal 14pt arial;
+
+}
+
+#DivPlacar{
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 100px;
+    
+}
+
+#tablePlacar{
+    width: 200px;
+    height: 200px;
+    right: 100px;
+}
+#TD1 , #TD2, #TD4{
+    border-right: none;
+}
+
+#velha_img{
+    display: block;
+    position: absolute;
+    left: 100px;
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    
+}
+
+#MsgVencedor{
+    display: block;
+    position: absolute;
+    font: normal 50pt arial;
+    color: white;
+    top: 620px;
+    right: 300px;
+    
+}

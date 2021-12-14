@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo2.css">
+    <title>Velha</title>
+</head>
+<body>
+    <header>Jogo da Velha</header>
+        <div id="TabelaVelha">
+            <table>
+                <tr>
+                    <td id="a_1" onclick="jogada(this)"></td>
+                    <td id="a_2" onclick="jogada(this)"></td>
+                    <td id="a_3" onclick="jogada(this)"></td>
+                </tr> 
+                <tr>
+                    <td id="b_1" onclick="jogada(this)"></td>
+                    <td id="b_2" onclick="jogada(this)"></td>
+                    <td id="b_3" onclick="jogada(this)"></td>
+                </tr>
+                <tr>
+                    <td id="c_1" onclick="jogada(this)"></td>
+                    <td id="c_2" onclick="jogada(this)"></td>
+                    <td id="c_3" onclick="jogada(this)"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="botoes">
+            <p><input type="button" value="Zerar jogo" id="BtnIniciar" onclick="ZerarPlacar()">
+            <input type="button" value="Recomeçar" id="BtnRecomeçar" onclick="Reiniciar()"></p>
+        </div>
+
+        <div id="imagem">
+            <img src="velha_imagem.png" alt="num sei" id="velha_img">
+        </div>
+
+        <div id="DivPlacar">
+            <table id="tablePlacar"> 
+                <tr id="TR1">
+                    <td id="TD1">X</td>
+                    <td id="TD2">O</td>
+                </tr>
+                <tr>
+                    <td id="TD3"></td>
+                    <td id="TD4"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="MsgVencedor">
+             
+        </div>
+        
+</body>
+    <script src="velha.js"></script>
+</html>
